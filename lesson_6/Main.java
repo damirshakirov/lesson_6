@@ -14,5 +14,12 @@ public class Main {
 
     5. * Добавить животным разброс в ограничениях. То есть у одной собаки ограничение на бег может быть 400 м., у другой 600 м.
 	 */
+        Animal dog = new Dog();
+        dog.voice();
+        dog.eat();
+        Animal cat = new Cat();
+        cat.voice();
+        cat.eat();
     }
 }
+
